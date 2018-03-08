@@ -1,0 +1,17 @@
+.Header {
+  margin: 20px;
+  display: flex;
+}
+
+.navigation {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding-right: 5px;
+}
+
+.Signin {
+  margin: 20px;
+}
