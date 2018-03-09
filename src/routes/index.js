@@ -7,7 +7,8 @@ import Signin from './Signin'
 export default () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path='/' render={props => <Home {...props} />}/>
+      {/* <Route exact path='/' component={props => <Home {...props} />}/> */}
+      <Route exact path='/' component={Home}/>
       <Route path='/home' component={Home}/>
       <Route path='/signin' component={Signin}/>
     </Switch>
