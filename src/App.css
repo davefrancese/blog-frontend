@@ -18,7 +18,12 @@ li {
 
 .Signin,
 .Home,
-.AddPost {
+.AddPost,
+.SinglePost,
+.YourGroups,
+.SingleGroup,
+.Groups,
+.Users {
   margin: 20px;
 }
 
@@ -40,4 +45,11 @@ li {
 
 .MyPost h5 {
   padding: 5px;
+}
+
+.MyGroupsList p {
+  background: #0072b4;
+  padding: 5px;
+  border-radius: 3px;
+  color: #fff;
 }

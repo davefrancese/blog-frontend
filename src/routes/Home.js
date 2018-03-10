@@ -43,7 +43,9 @@ class Home extends React.Component {
             <Link to='/addpost' className='Link'>
               <h4>Add Post</h4>
             </Link>
-            <h4>Your Groups</h4>
+            <Link to='/yourgroups' className='Link'>
+              <h4>Your Groups</h4>
+            </Link>
             <h4>Unread Posts</h4>
           </div>
           <h3>Your Posts</h3>

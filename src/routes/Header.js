@@ -12,6 +12,12 @@ export default () => (
       <Link to='/signin'>
         <li>Sign In</li>
       </Link>
+      <Link to='/groups'>
+        <li>Groups</li>
+      </Link>
+      <Link to='/users'>
+        <li>Users</li>
+      </Link>
     </ul>
 
   </div>

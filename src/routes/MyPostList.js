@@ -7,14 +7,11 @@ class MyPostList extends React.Component {
     return (
       <div className="MyPostList">
         {this.props.myPosts.map(post =>
-          <Link to="" className="Link">
             <MyPost
               key={post.id}
               post={post}
               />
-          </Link>
           ) }
-
       </div>
     );
   }
