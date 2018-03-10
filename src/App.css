@@ -1,3 +1,7 @@
+.Link {
+  text-decoration: none;
+}
+
 .Header {
   margin: 20px;
   display: flex;
@@ -12,6 +16,28 @@ li {
   padding-right: 5px;
 }
 
-.Signin, .Home {
+.Signin,
+.Home,
+.AddPost {
   margin: 20px;
+}
+
+.user-toolbar {
+  display: flex;
+  color: #0072b4;
+}
+
+.user-toolbar h4 {
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.MyPostList {
+  background: #0072b4;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.MyPost h5 {
+  padding: 5px;
 }
